@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.boxs{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    background-image: url("New\ Graphics.JPG");
+    background-size: cover;
+    border-radius: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.home1{
+    height: 50px;
+    background-color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    gap: 80px;
+}
+.home2{
+    height: 627px;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+.home3{
+    height: 450px;
+    width: 950px;
+    margin-left: 300px;
+    margin-right: 500px;
+    background-color: white;
+}
+.laycon{
+    color:  white;
+    margin-left: -60px;
+    font-size: 30px;
+}
+.oruko{
+    color: white;
+    font-size: 25px;
+}
+.margin{
+    margin-left: 800px;
+}
+.margin1{
+    margin-left: 890px;
+}
+.color{
+    color: black;
+    font-size: 20px;
+    font: bolder;
+    margin-left: 20px;
+}
+.no{
+    margin-left: 20px;
+}
+.work{
+    margin-left: 10px;
+}
+.laa{
+    text-decoration: none;
+}
+.box{
+    cursor: pointer;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+.option{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 100%;
+}
+.option a {
+    background-color: black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    display: block;
+}
+.option a:hover{
+    background-color: aliceblue;
+}
+.box:hover .option{
+    display: block;
+}
